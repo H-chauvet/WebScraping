@@ -35,9 +35,9 @@ COOKIES_ENABLED = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "scraper.pipelines.WebsitePipeline": 300,
-    "scraper.pipelines.CategoryPipeline": 400,
-    "scraper.pipelines.ProductPipeline": 500,
+    "ScrapyScraper.pipelines.WebsitePipeline": 300,
+    "ScrapyScraper.pipelines.CategoryPipeline": 400,
+    "ScrapyScraper.pipelines.ProductPipeline": 500,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
